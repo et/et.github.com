@@ -9,8 +9,8 @@
   <meta name="author" content="Eric Thomas">
 
   
-  <meta name="description" content="I always forget the complicated setup to get postgres running.
-Here&#8217;s a guide for setting up postgres on Fedora and running a rails app on it. &hellip;">
+  <meta name="description" content="Setting Up Rails With Postgres on Fedora Oct 28th, 2011 | Comments I always forget the complicated setup to get postgres running.
+Here&#8217;s a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -34,44 +34,77 @@ Here&#8217;s a guide for setting up postgres on Fedora and running a rails app o
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Eric's thoughts</a></h1>
-  
-    <h2>Tidbits of my mind</h2>
-  
-</hgroup>
+<body >
+  <header role="banner" id="sidebar">
+    <!-- Logo -->
+<aside id="logo" class="clearfix">
+  <div class="clearfix">
+    <a href="/">Eric's thoughts</a>
+  </div>
+</aside>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
+<ul id="menu">
+
+  <li class="title">
+    <h1 id="title"><a href="/">Eric's thoughts</a></h1>
+  </li>
+
+
+  <li class="subtitle">
+    <h2 id="subtitle">Tidbits of my mind</h2>
+  </li>
+
+  <li class="link">
+    <a href="/about/">about</a>
+  </li>
+
+
+  <li class="link rss">
+    <a href="/atom.xml">rss feed</a>
+  </li>
 </ul>
-  
+
+
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:et.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
+
+<!-- Octopress Love -->
+<aside id="octopress_linkback">
+  <a href="http://octopress.org/">
+    <span class="unicode_square">
+      <span class="unicode_circle">
+        &nbsp;
+      </span>
+    </span>
+    <span class="octopress">Powered by Octopress</span>
+  </a>
+</aside>
+
+  </header>
+  <section id="main">
+      
+  
+  
+    <article class="post">
+      <div class="sharing-box">
   
   
   
-    <article>
+</div>
+
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2011/10/28/setting-up-rails-with-postgres-on-fedora/">Setting Up Rails With Postgres on Fedora</a></h1>
+      <h2 class="entry-title">
+        
+        <a href="/blog/2011/10/28/setting-up-rails-with-postgres-on-fedora/">Setting Up Rails With Postgres on Fedora</a>
+        
+      </h2>
     
     
       <p class="meta">
@@ -89,12 +122,14 @@ Here&#8217;s a guide for setting up postgres on Fedora and running a rails app o
 
 <time datetime="2011-10-28T10:51:00-07:00" pubdate data-updated="true">Oct 28<span>th</span>, 2011</time>
         
+         | <a href="/blog/2011/10/28/setting-up-rails-with-postgres-on-fedora/#disqus_thread">Comments</a>
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>I always forget the complicated setup to get postgres running.
+  <p>I always forget the complicated setup to get postgres running.
 Here&#8217;s a guide for setting up postgres on Fedora and running a rails app on it.</p>
 
 <p>First install all of our dependencies that we&#8217;ll need and configure the postgres service.</p>
@@ -164,49 +199,34 @@ match the username and password your created earlier</p>
 
 
 <p>Tested on Fedora 15.</p>
-</div>
+
   
   
 
 
     </article>
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
+
+    <nav role="navigation" id="pagination">
+
+</nav>
+  </section>
   
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2011/10/28/setting-up-rails-with-postgres-on-fedora/">Setting up Rails with Postgres on Fedora</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
 
   
-</aside>
 
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Eric Thomas -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
+<script type="text/javascript">
+      var disqus_shortname = 'ericlmthomas';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
@@ -223,7 +243,6 @@ match the username and password your created earlier</p>
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>
-
 
 
 

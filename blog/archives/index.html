@@ -10,7 +10,7 @@
 
   
   <meta name="description" content=" Blog Archive 2011 Setting up Rails with Postgres on Fedora
-Oct 28 2011 Recent Posts Setting up Rails with Postgres on Fedora ">
+Oct 28 2011 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -34,40 +34,72 @@ Oct 28 2011 Recent Posts Setting up Rails with Postgres on Fedora ">
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Eric's thoughts</a></h1>
-  
-    <h2>Tidbits of my mind</h2>
-  
-</hgroup>
+<body >
+  <header role="banner" id="sidebar">
+    <!-- Logo -->
+<aside id="logo" class="clearfix">
+  <div class="clearfix">
+    <a href="/">Eric's thoughts</a>
+  </div>
+</aside>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
+<ul id="menu">
+
+  <li class="title">
+    <h1 id="title"><a href="/">Eric's thoughts</a></h1>
+  </li>
+
+
+  <li class="subtitle">
+    <h2 id="subtitle">Tidbits of my mind</h2>
+  </li>
+
+  <li class="link">
+    <a href="/about/">about</a>
+  </li>
+
+
+  <li class="link rss">
+    <a href="/atom.xml">rss feed</a>
+  </li>
 </ul>
-  
+
+
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:et.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article role="article">
+
+<!-- Octopress Love -->
+<aside id="octopress_linkback">
+  <a href="http://octopress.org/">
+    <span class="unicode_square">
+      <span class="unicode_circle">
+        &nbsp;
+      </span>
+    </span>
+    <span class="octopress">Powered by Octopress</span>
+  </a>
+</aside>
+
+  </header>
+  <section id="main">
+    <div>
+<article role="article" class="post">
+  
+    <div class="sharing-box">
+  
+  
+  
+</div>
+
+  
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    <h2 class="entry-title">Blog Archive</h2>
     
   </header>
   
@@ -93,37 +125,26 @@ Oct 28 2011 Recent Posts Setting up Rails with Postgres on Fedora ">
 
 </div>
 
-<aside class="sidebar">
+    <nav role="navigation" id="pagination">
+
+</nav>
+  </section>
   
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2011/10/28/setting-up-rails-with-postgres-on-fedora/">Setting up Rails with Postgres on Fedora</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
 
   
-</aside>
 
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Eric Thomas -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
+<script type="text/javascript">
+      var disqus_shortname = 'ericlmthomas';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
@@ -140,7 +161,6 @@ Oct 28 2011 Recent Posts Setting up Rails with Postgres on Fedora ">
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>
-
 
 
 
