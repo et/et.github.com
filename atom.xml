@@ -4,7 +4,7 @@
   <title><![CDATA[Eric's thoughts]]></title>
   <link href="http://et.github.com/atom.xml" rel="self"/>
   <link href="http://et.github.com/"/>
-  <updated>2012-09-25T15:48:05-07:00</updated>
+  <updated>2012-09-25T16:01:40-07:00</updated>
   <id>http://et.github.com/</id>
   <author>
     <name><![CDATA[Eric Thomas]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Greek Gobbler]]></title>
+    <link href="http://et.github.com/blog/2012/09/25/greek-gobbler/"/>
+    <updated>2012-09-25T15:56:00-07:00</updated>
+    <id>http://et.github.com/blog/2012/09/25/greek-gobbler</id>
+    <content type="html"><![CDATA[<p>Mini omelette filled with shallots, roasted garlic pieces, and sweet artichoke hearts bound together with feta cheese in a loving embrace.</p>
+
+<p>Served in a blanket of fresh spinach inside a toasted NY style bagel.</p>
+
+<p>Suggested pairing: Apple juice</p>
+
+<p><img src="http://et.github.com/images/greek-gobbler.jpg" width="600"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Apple Tart]]></title>
