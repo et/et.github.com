@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Eric's thoughts]]></title>
-  <link href="http://et.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Rails | Eric's thoughts]]></title>
+  <link href="http://et.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://et.github.com/"/>
   <updated>2012-09-25T14:34:16-07:00</updated>
   <id>http://et.github.com/</id>
@@ -19,23 +19,22 @@
     <updated>2011-10-28T10:51:00-07:00</updated>
     <id>http://et.github.com/blog/2011/10/28/setting-up-rails-with-postgres-on-fedora</id>
     <content type="html"><![CDATA[<p>I always forget the complicated setup to get postgres running.
-Here&#8217;s a guide for setting up postgres on Fedora and running a rails app on it.</p>
+Here's a guide for setting up postgres on Fedora and running a rails app on it.</p>
 
-<p>First install all of our dependencies that we&#8217;ll need and configure the postgres service.</p>
+<p>First install all of our dependencies that we'll need and configure the postgres service.</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>% sudo yum install -y postgres postgres-server postgres-devel
 </span><span class='line'>% sudo service postgres initdb
 </span><span class='line'>% sudo service postgres start
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-
-<p>Now setup a role for yourself. In this example, my username is &#8220;et&#8221;, call it
+<p>Now setup a role for yourself. In this example, my username is "et", call it
 whatever your login is.</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -49,13 +48,11 @@ whatever your login is.</p>
 </span><span class='line'>Shall the new role be a superuser? <span class="o">(</span>y/n<span class="o">)</span> n
 </span><span class='line'>Shall the new role be allowed to create databases? <span class="o">(</span>y/n<span class="o">)</span> y
 </span><span class='line'>Shall the new role be allowed to create more new roles? <span class="o">(</span>y/n<span class="o">)</span> n
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Finally generate your new rails app, adjusting your <code>config/database.yml</code> to
-match the username and password your created earlier</p>
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+match the username and password your created earlier
+<div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -77,15 +74,12 @@ match the username and password your created earlier</p>
 </span><span class='line'><span class="o">[</span>2011-10-28 12:20:07<span class="o">]</span> INFO  WEBrick 1.3.1
 </span><span class='line'><span class="o">[</span>2011-10-28 12:20:07<span class="o">]</span> INFO  ruby 1.9.2 <span class="o">(</span>2011-07-09<span class="o">)</span> <span class="o">[</span>x86_64-linux<span class="o">]</span>
 </span><span class='line'><span class="o">[</span>2011-10-28 12:20:07<span class="o">]</span> INFO  WEBrick::HTTPServer#start: <span class="nv">pid</span><span class="o">=</span>2657 <span class="nv">port</span><span class="o">=</span>3000
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-
-<p>Optionally, tell Fedora to start automatically on a reboot:</p>
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p>Optionally, tell Fedora to start automatically on a reboot:
+<div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo chkconfig postgres on
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Tested on Fedora 15.</p>
 ]]></content>

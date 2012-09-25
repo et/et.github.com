@@ -2,18 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://et.github.com/blog/2011/10/28/setting-up-rails-with-postgres-on-fedora/</loc>
-        <lastmod>2012-09-24T12:47:22-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://et.github.com/</loc>
-        <lastmod>2012-09-24T12:47:22-07:00</lastmod>
+        <lastmod>2012-09-25T14:25:34-07:00</lastmod>
     </url>
     <url>
         <loc>http://et.github.com/about/</loc>
-        <lastmod>2012-09-24T13:03:01-07:00</lastmod>
+        <lastmod>2012-09-25T14:21:48-07:00</lastmod>
     </url>
     <url>
         <loc>http://et.github.com/blog/archives/</loc>
-        <lastmod>2012-09-24T12:47:22-07:00</lastmod>
+        <lastmod>2012-09-25T14:25:34-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://et.github.com/</loc>
+        <lastmod>2012-09-25T14:25:34-07:00</lastmod>
     </url>
 </urlset>
