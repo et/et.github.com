@@ -3,7 +3,7 @@ layout: post
 title: "Apple Tart"
 date: 2012-09-25 14:45
 comments: true
-categories: [Food, Apples, Baking, Tarts]
+categories: [Food, Apples, Baking, Tarts, Dessert]
 ---
 
 I made this [recipe](http://www.sophisticatedgourmet.com/2011/09/easy-fig-tarts/) with the last of the figs of the season.
