@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Robust"
+date: 2012-09-25 21:13
+comments: true
+categories: [Salad Bell-Pepper Arugula Quinoa Turkey]
+---
+
+This one definitely had me working a lot on the prep and cooking. Total time from start to finish was about an hour.
+Cook everything for the bell peppers, then eat the bomb-diggity-bomb salad (I just used store bought dressing).
+
+
+{% img /images/arugula-fig-salad.jpg 500 %}
+
+Once you've finished that, take a breather and eat those bell peppers.
+
+{% img /images/turkey-quinoa-stuffed-bell-pepper.jpg 500 %}
+
+Finish up with your favorite milk chocolate.
+
+[Smoky Arugula & Fig Salad](http://authenticsuburbangourmet.blogspot.com/2012/09/smoky-arugula-fig-salad-with-creamy.html)  
+[Turkey and Quinoa Stuffed Bell Peppers](http://afoodcentriclife.com/turkey-and-quinoa-stuffed-bell-peppers/)
