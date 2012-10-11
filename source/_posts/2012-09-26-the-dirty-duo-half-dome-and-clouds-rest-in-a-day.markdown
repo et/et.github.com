@@ -3,7 +3,7 @@ layout: hiking-post
 title: "Hiking Report: Half Dome and Clouds Rest in a Day"
 date: 2012-09-26 12:04
 comments: true
-categories: Hiking, Yosemite, Half Dome, Clouds Rest
+categories: [Hiking, Yosemite, Half Dome, Clouds Rest]
 distance: 28 mi
 ---
 
