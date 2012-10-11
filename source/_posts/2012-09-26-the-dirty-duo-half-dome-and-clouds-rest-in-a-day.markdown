@@ -54,9 +54,13 @@ legendary cables. At this point, we definitely needed a break.
 Decision time: try to reach the top before sunrise (6:55AM) or stay at the top of Subdome and
 watch it from there.
 
+{% img /images/yosemite-sun-peaking-head.JPG 500 %}
+
 The avocado, tomato, meat sandwiches quickly persuaded us to
 just chill and wait. Ten minutes later and we got anxious and said screw it and
 went for the cables.
+
+{% img /images/yosemite-half-dome-cables.JPG 500 %}
 
 ### Cables
 
@@ -71,13 +75,21 @@ mountain.
 
 10 minutes later, we're at the top.
 
+{% img /images/yosemite-top-of-half-dome.JPG 500 %}
+
 Man...what a great feeling. The air is calm, the view is endless, and everything is
 right in the world.
 
-We snapped a couple photos and relaxed for a bit. The visor (usually mistaken as a the
+We snapped a couple photos and relaxed for a bit. The visor (usually mistaken as the
 diving board) was a prime spot for taking pictures and is a great heart thumper if you
-have a fear of heights. Also it was my friend's birthday so we celebrated with a some
+have a fear of heights.
+
+{% img /images/yosemite-half-dome-visor.JPG 500 %}
+
+Also it was my friend's birthday so we celebrated with a some
 delicious ginger snap cookies.
+
+{% img /images/yosemite-ginger-snaps.jpg 500 %}
 
 ### Down and out
 
@@ -99,9 +111,11 @@ extra fun and start heading towards Clouds Rest.
 So we embark on our way. It's about 10AM or so and starting to heat up. The valley literally
 traps heat so we're baking quite a bit early on.
 
-I actually don't know what is Clouds Rest. I mean, I've seen pictures of it online, but if you
+I actually don't know what Clouds Rest looks like. I mean, I've seen pictures of it online, but if you
 gave me a mountain line up, I wouldn't be able to pick it out. So here we are, hiking up a steady
 incline of switchbacks all the while with a picturesque shot of Half Dome at our backs.
+
+{% img /images/yosemite-looking-back-at-half-dome.JPG 500 %}
 
 We hiked up and were staring at some peak, but as we progressed, we realized that we were passing
 it completely. Then we looked at the next peak and maybe that was it. Nope. We hiked passed that
@@ -119,10 +133,17 @@ then going back up to Clouds Rest will make most people a little sick due to the
 ### The Summit
 
 We reached the top finally after taking a small break when the altitude effects kicked in and took
-in the gorgeous view. 360 degree panaromic view of all of Yosemite. Not just the valley, but everywhere.
-Tenaya Lake is clearly visible (an alternate starting point to reach Clouds Rest). It's then that I
-realize why everyone says Clouds Rest is way better than Half Dome. No arguments here, the view is
-breath-taking.
+in the gorgeous view. 360 degree panoramic unobstructed view of all of Yosemite. Not just the valley,
+but everywhere.  Tenaya Lake is clearly visible (an alternate starting point to reach Clouds Rest).
+
+{% img /images/yosemite-tenaya-lake-from-clouds-rest.JPG 500 %}
+
+Furthermore, we know get a bad ass shot of Half Dome as we look down on it.
+
+{% img /images/yosemite-half-dome-from-clouds-rest.JPG 500 %}
+
+It's then that I realize why everyone says Clouds Rest is way better than Half Dome. No arguments here,
+the view is breath-taking.
 
 As much as I want to stay and chill for awhile, my friend is feeling the effects a little too much
 and we start descending. Which is probably the best move since we're also down to about half a bottle
@@ -131,8 +152,10 @@ of water.
 ### Descending
 
 I won't bore you with the details of descending since as we all know, doing the back of an out-and-back
-sucks. But we did see a cute cuddly baby bear which I barely managed to snap a shot of before he
+sucks.  But we did see a cute cuddly baby bear which I barely managed to snap a shot of before he
 scampered back into the woods.
+
+{% img /images/yosemite-clouds-rest-bear.JPG 500 %}
 
 We reached the end of the trail at about 4PM and met up with our friends to celebrate with some Mexican.
 
