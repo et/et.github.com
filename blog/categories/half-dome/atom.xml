@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Rest | Eric's thoughts]]></title>
-  <link href="http://et.github.com/blog/categories/rest/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Half Dome | Eric's thoughts]]></title>
+  <link href="http://et.github.com/blog/categories/half-dome/atom.xml" rel="self"/>
   <link href="http://et.github.com/"/>
-  <updated>2012-10-11T13:16:06-07:00</updated>
+  <updated>2012-10-11T13:21:08-07:00</updated>
   <id>http://et.github.com/</id>
   <author>
     <name><![CDATA[Eric Thomas]]></name>
